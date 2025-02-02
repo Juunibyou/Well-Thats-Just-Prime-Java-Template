@@ -8,6 +8,6 @@ class FactorizerTest {
   @Test
   void itReturnsAnEmptyListForZero() {
     Factorizer factorizer = new Factorizer();
-    assertEquals(factorizer.primeFactors(0), new ArrayList());
+    assertEquals(factorizer.primeFactors(0), new ArrayList<Integer>());
   }
 }
