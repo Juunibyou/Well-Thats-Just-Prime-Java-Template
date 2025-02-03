@@ -34,4 +34,15 @@ class FactorizerTest {
     factors.add(5);
     assertEquals(factorizer.primeFactors(25), factors);
   }
+
+  @Test
+  void itReturnsAListFor100(){
+    ArrayList<Integer> factors = new ArrayList<>();
+    Factorizer factorizer = new Factorizer();
+    factors.add(2);
+    factors.add(2);
+    factors.add(5);
+    factors.add(5);
+    assertEquals(factorizer.primeFactors(100), factors);
+  }
 }
